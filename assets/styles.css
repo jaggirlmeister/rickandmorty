@@ -1,0 +1,232 @@
+body{
+    background-image: url('https://rickandmortypod.com/wp-content/uploads/2018/11/cropped-RM_page-header_background1-3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+img{
+    margin-bottom: 2em ;
+}
+
+#logo{
+    width: 47%;
+}
+
+.container{
+    padding: 0em 2em 2em 2em;
+}
+
+.subtitle, h1{
+    color: white !important;
+}
+
+.subtitle{
+    margin-top: 1em !important;
+    font-style: italic;
+}
+
+
+#search-box{
+    margin-bottom: 3em;
+}
+
+.control{
+    display: inline !important;
+}
+
+.card{
+    transition: all .2s ease-in-out !important;
+    border-radius: 10px;
+}
+
+article{
+    transition: all .2s ease-in-out !important;
+    border-radius: 10px;
+}
+
+.card img{
+    border-radius: 14px 14px 0px 0px;
+}
+
+.title{
+    color: #6f6f6f;
+}
+
+.title.is-6 {
+    font-size: 1rem;
+    margin-bottom: .3em;
+}
+
+.card-content{
+    padding: .5rem 1.5em 1.5rem 1.5rem;
+}
+
+.card:hover{
+    transform: scale(1.05) !important;
+}
+
+article:hover{
+    transform: scale(1.05) !important;
+}
+
+.buttons{
+    justify-content: flex-end;
+    float: right;
+}
+
+#phrase{
+    width: 50%;
+    padding-bottom: 2em;
+    margin: 0 auto;
+}
+
+#input{
+    background-color: transparent;
+    color: white;
+    border-radius: 0px;
+    border: none;
+    border-bottom: solid 1px white !important;
+    margin-bottom: 1em;
+    width: 40%;
+    text-align: center;
+}
+
+input::placeholder {
+    color: #a7a7a7 !important;
+}
+
+.handle_search{
+    padding-bottom: 2em;
+}
+
+.control{
+    text-align: center !important;
+}
+
+.file{
+    display: flow-root !important;
+}
+
+.modal-content::-webkit-scrollbar {
+    width: .7em;
+  }
+   
+  .modal-content::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+   
+  .modal-content::-webkit-scrollbar-thumb {
+    background-color: #0d575a
+  }
+
+  body::-webkit-scrollbar {
+    width: .7em;
+  }
+   
+   
+  body::-webkit-scrollbar-thumb {
+    background-color: #03a9f44f;
+  }
+
+.modal-content{
+    padding: 2.5em 1em 1em 1em;
+    background-color: #003f4ca6
+}
+
+.modalProfile{
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+#modalTitle{
+    font-size: 22px;
+    color: white;
+    border-bottom: 1px solid white;
+    border-left: 5px solid white;
+    margin-bottom: .5em;
+    padding-left: 0.3em;
+}
+
+.heading{
+    font-size: 13px !important;
+    margin-bottom: 1em !important;
+}
+
+#characterProfile{
+    text-align: center;
+    margin-top: .5em;
+    font-size: 30px;
+}
+
+.modalInfo{
+    font-size: 20px;
+    color: white !important;
+}
+
+.level-item{
+    width: 30% !important;
+    align-self: flex-start;
+    color: white !important;
+}
+
+.table{
+    width: 100%;
+    background-color: transparent;
+    color: white;
+}
+
+.table tbody {
+    background-color: #35867742;
+}
+
+thead{
+    font-size: 19px;
+}
+
+.table th {
+    color: #ffffff !important;
+}
+
+.table thead{
+    border-bottom: .2em solid white;
+}
+
+.image img{
+    border: 7px solid white !important;
+}
+
+tbody tr:hover{
+    background-color: #35867742 !important;
+}
+
+.table td, .table th {
+    border: none;
+}
+
+.table.is-striped tbody tr:not(.is-selected):nth-child(even) {
+    background-color: #0a3841;
+}
+
+.message.is-dark {
+    background-color: #000000cf;
+    text-align: left;
+}
+
+.message-header {
+    font-weight: 600;
+    letter-spacing: .5px;
+    font-size: 19px;
+}
+
+.message-body {
+    font-size: 19px;
+    color: white;
+}
+
+.container {
+    width: 1200px !important;
+}

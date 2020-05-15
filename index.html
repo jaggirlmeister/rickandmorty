@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rick and Morty's info</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <link rel="stylesheet" href="assets/styles.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
+  </head>
+  <body>
+  <section class="section">
+    <div class="container has-text-centered">
+      <img id="logo" src='https://img.pngio.com/guidelines-rick-and-morty-redbubble-rick-and-morty-logo-png-622_202.png'>
+      <p class="subtitle" id="phrase"></p>
+      <div id="search-box" class="field is-grouped, file is-centered">
+        <p class="control">
+          <input id='input' class="input input_search" type="text" placeholder="Hello earthling! What creature are you looking for?">
+        </p>
+        <p class="control handle_search">
+          <a class="button is-info">
+            <i class="fas fa-search"></i>
+          </a>
+        </p>
+      </div>
+
+      <div class="tabs is-medium">
+        <ul>
+          <li id="charactersTab" class="is-active">
+            <a>
+              <span>Characters</span>
+            </a>
+          </li>
+          <li id="episodesTab">
+            <a>
+              <span>Episodes</span>
+            </a>
+          </li>
+          <li id="locationsTab">
+            <a>
+              <span>Locations</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="columns is-multiline grid">
+      </div>
+    </div>
+  </section>
+
+<div class="modal">
+  <div class="modal-background"></div>
+  <div class="modal-content">
+
+    <figure class="image modalProfile">
+      <img id="modalImg" class="is-rounded" src="">
+    </figure>
+
+    <h1 class="title is-4" id="characterProfile"></h1>
+
+    <nav class="level">
+      <div class="level-item has-text-centered">
+        <div>
+          <p class="heading">Origin</p>
+          <p id="planet-origin" class="title modalInfo"></p>
+        </div>
+      </div>
+      <div class="level-item has-text-centered">
+        <div>
+          <p class="heading">Status</p>
+          <p id="character-status" class="title modalInfo"></p>
+        </div>
+      </div>  
+      <div class="level-item has-text-centered">
+        <div>
+          <p class="heading">Location</p>
+          <p id="planet-location" class="title modalInfo"></p>
+        </div>
+      </div>
+    </nav>
+    <p id="modalTitle">Appears on episodes: </p>
+    <table class="table is-striped">
+      <thead>
+        <tr>
+          <th>
+            Episode
+          </th>
+          <th>
+            Name
+          </th>
+          <th>
+            Air Date
+          </th>
+        </tr>
+      </thead>
+      <tbody id="episodesTable">
+      </tbody>
+    </table>
+  </div>
+  <button class="modal-close is-info" aria-label="close"></button>
+</div>
+
+<script src='assets/js/code.js'></script>
+  
+</body>
+</html>
